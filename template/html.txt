@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Word Game</title>
+</head>
+<body>
+    <h1>Word Guess Game</h1>
+    <input id="guess" maxlength="5">
+    <button onclick="sendGuess()">Guess</button>
+    <p id="result"></p>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
